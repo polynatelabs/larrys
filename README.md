@@ -1,10 +1,6 @@
-# Turborepo starter with pnpm
+# Larry's Comments
 
-This is an official starter turborepo.
-
-## What's inside?
-
-This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following packages/apps:
+Start the conversation in the comments, take it to twitter and back.
 
 ### Apps and Packages
 
@@ -23,10 +19,6 @@ This turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
-
-## Setup
-
-This repository is used in the `npx create-turbo@latest` command, and selected when choosing which package manager you wish to use with your monorepo (pnpm).
 
 ### Build
 
@@ -75,3 +67,9 @@ Learn more about the power of Turborepo:
 - [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
 - [Configuration Options](https://turborepo.org/docs/reference/configuration)
 - [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+
+### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+### License
+[AGPL-3.0](https://choosealicense.com/licenses/agpl-3.0)
