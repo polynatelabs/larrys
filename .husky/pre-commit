@@ -2,16 +2,16 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo '\nStyling your project before committing 🏗️'
-echo 'please be patient, this may take a while...\n'
+echo 'Please be patient, this may take a while...\n'
 
 # Check ESLint Standards
 pnpm lint ||
 (
     echo '🔨❌ Whoops, you have a problem in your code. Check linter 🔨❌
-          Run yarn lint, add changes and try commit again.';
+          Run pnpm lint, add changes and try commit again.';
     false;
 )
 
-echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'
+echo '🎉 No error found: committing this now.... ✨🚀🍻'
 
 pnpx lint-staged
